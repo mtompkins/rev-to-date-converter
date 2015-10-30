@@ -32,3 +32,7 @@ FORMS +=	mainwindow.ui
 RESOURCES +=	resources.qrc
 
 DISTFILES +=
+
+# Configure make install target
+target.path = /usr/local/bin/
+INSTALLS += target
