@@ -1,4 +1,4 @@
-[![emblem](https://img.shields.io/badge/project-passive-lightgrey.svg)](https://git.marktompkins.me/mtompkins/revisiontodateconverter) [![build status](https://git.marktompkins.me/mtompkins/rev-to-date-converter/badges/master/build.svg)](https://git.marktompkins.me/mtompkins/rev-to-date-converter/commits/master)
+[![emblem](https://img.shields.io/badge/project-passive-lightgrey.svg)](https://git.marktompkins.me/mtompkins/revisiontodateconverter) [![build status](https://git.marktompkins.me/mtompkins/rev-to-date-converter/badges/master/build.svg)](https://git.marktompkins.me/mtompkins/rev-to-date-converter/commits/master) [![Build Status](https://travis-ci.org/mtompkins/rev-to-date-converter.svg?branch=master)](https://travis-ci.org/mtompkins/rev-to-date-converter)
 
 # QT Revision To Date Converter
 
@@ -12,5 +12,5 @@ cd revision-to-date-converter
 qmake RevisionToDateConverter.pro -r -spec linux-g++
 make
 ```
-This will produce an executable binary in ./Build/release
-You can also examine a successful build using the above emblems and download a precompiled artifact file.
+This will produce an executable binary in `build/release`.    
+You can also download from the project's [releases](https://github.com/mtompkins/rev-to-date-converter/releases) section.
