@@ -2,4 +2,4 @@ before_install:
 
 script:
   - qmake RevisionToDateConverter.pro -r -spec linux-g++
-  - make 
+  - make
