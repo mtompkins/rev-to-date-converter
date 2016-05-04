@@ -1,4 +1,4 @@
-[![emblem](https://img.shields.io/badge/project-passive-lightgrey.svg)](https://git.marktompkins.me/mtompkins/revisiontodateconverter) [![build status](https://git.marktompkins.me/mtompkins/revision-to-date-converter/badges/master/build.svg)](https://git.marktompkins.me/mtompkins/revision-to-date-converter/commits/master)
+[![emblem](https://img.shields.io/badge/project-passive-lightgrey.svg)](https://git.marktompkins.me/mtompkins/revisiontodateconverter) [![build status](https://git.marktompkins.me/mtompkins/rev-to-date-converter/badges/master/build.svg)](https://git.marktompkins.me/mtompkins/rev-to-date-converter/commits/master)
 
 # QT Revision To Date Converter
 
