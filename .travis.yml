@@ -7,5 +7,6 @@ deploy:
   api_key:
     secure: VO6J4UCu1Jj2+I9p1pTcM2zp3duauLT+jsqnzFB7ykiQWCQ6E/M7NZ0WE++HrCzGuPJjhXl2oekMYQz08m4LwbggtdpqEl/gLXH6tfDMqi6RkjNGeQQZXiSX01xVzDKRSzI4jdWvUFCuoSeNqPFDLuI3j0WaL9J7jmpbRUGRjjeVyejfHl6oEF4J8NdFO+BouIJdFmDGx5XXMNQOdtAIpRRewW8YmA8zjazL9CCQIX/hrINUzdbW5GEs1V5OtPt8djypubPY+U5RSks/Yvg0q+04CUojZtkwKpebUCW9cy3JwqVUy9xBAueR/CdmwH5QWz1ImEfeW3+6uGaaC+Dkb9+cSByVCaF4qInGMrJ9CZ7ODoPpHZtBGWADscQ5jFTcjnTR8vA/jBEFq+Q24RXV/Z40m+B8LXFDwj3/h7919FjMvPlyEBvaFQp6isUYVPGih8OLjwdVgmVce9f74v7uGpgAPboqQm17mZnFOH57MVlgRJlm2dQL+fyZyeSBLcgy5+Pw5deemYmKn3XwukbYYsok2bgb5xBJXLoMNL6y9OWcoS6FYZRAf5UEyEu6Vnwr9oKDiP5Ikd7dW0wQwBvSvwaFQaTi9RVVs5lmOC27M3bfRQALvYiE/T/lZbbmjp+SSU4LqR6ljhYBtj9NsoVX5wGvPxKGsiVVT6HoXFqNGnk=
   file: "./build/release/RevisionToDateConverter"
+  skip_cleanup: true
   on:
     repo: mtompkins/rev-to-date-converter
