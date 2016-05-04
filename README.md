@@ -7,8 +7,8 @@ Microsoft's Visual Studio has the ability to automatically generate intelligent 
 ## Application
 This simple QT based application provides a convenient tool for converting between encodings. You can clone and compile this repo with QT5 and the following instructions:
 ```
-git clone https://github.com/mtompkins/revision-to-date-converter.git
-cd revision-to-date-converter
+git clone https://github.com/mtompkins/rev-to-date-converter.git
+cd rev-to-date-converter
 qmake RevisionToDateConverter.pro -r -spec linux-g++
 make
 ```
