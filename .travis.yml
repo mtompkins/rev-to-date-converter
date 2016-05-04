@@ -1,5 +1,11 @@
-before_install:
-
+before_install: 
 script:
-  - qmake RevisionToDateConverter.pro -r -spec linux-g++
-  - make
+- qmake RevisionToDateConverter.pro -r -spec linux-g++
+- make
+deploy:
+  provider: releases
+  api_key:
+    secure: Jm3aTzrXDUc4gcqmFh4byrF34idp/lCsFocN2OuKkgYncycAzERs4GrcARKXHYbnBPbBobn71jL3hABOd6m7XNnbHAV06kkj1YSpYQKlWUf27a/K0XFtV0RIsSwTDVLnmt/5tklBTUbIcqQaCPd1QFw32bBs3EwnwpYvREux8iep6W/DQJsO9FIKp0b3ikdkQmE1SfuXZlpqVyyaXeHO6GDgiMxbUXPRpprLIxYeL/s0pSKBPOmUGfjDNiMqloTQrKr/GR59u2tOFmL326W4rnZ80b23KL/vbecZ2+HJS4CicqHln8tN84eCZynMdPBdXJbM64qm0vlFEq3ZLqOJOnhTse+713snjkOo9B8l5lAcgSaMJtcdqT9Ifwo7Q/hH9f3vRSUit6Byr9/3ekjjEhPETfVgnYdQxU6P/0XrTOH4w/+t1xc4pccrLIROI2MYsbMjydFe2QNypyK4ttZKtT+yqevc0BFI1Q07V4oi6OagbHOFlzwXFQQu0a6fhNI3Tu7DHXdZowTfXqdBptQnSi0OG4FudNcfcmZmr5NnpDSG65/07kCnSwALA7FSimpYhYUWfdjkQpEpyND/XPdLvIF2ivvhYFbXYmG8CicMrCBzprLRc+7WUvJ7Fx7Ih11KNmnF+sji8HVeAAHV08WYDIyqKvD8dQLcu4H5l22A3jY=
+  file: build/release/RevisionToDateConverter
+  on:
+    repo: mtompkins/revision-to-date-converter
