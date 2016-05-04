@@ -1,4 +1,5 @@
 [![emblem](https://img.shields.io/badge/project-passive-lightgrey.svg)](https://git.marktompkins.me/mtompkins/revisiontodateconverter) [![build status](https://git.marktompkins.me/mtompkins/rev-to-date-converter/badges/master/build.svg)](https://git.marktompkins.me/mtompkins/rev-to-date-converter/commits/master) [![Build Status](https://travis-ci.org/mtompkins/rev-to-date-converter.svg?branch=master)](https://travis-ci.org/mtompkins/rev-to-date-converter)
+<img align="right" src="https://www.kernel.org/theme/images/logos/tux.png" alt="Linux Logo" title="Tux">
 
 # QT Revision To Date Converter
 
