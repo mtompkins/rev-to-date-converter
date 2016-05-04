@@ -2,3 +2,6 @@ revisiontodate:
   script:
     - qmake RevisionToDateConverter.pro -r -spec linux-g++
     - make
+  artifacts:
+    paths:
+    - build/release/RevisionToDateConverter
