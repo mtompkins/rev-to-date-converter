@@ -1,5 +1,5 @@
 [![emblem](https://img.shields.io/badge/project-passive-lightgrey.svg)](https://git.marktompkins.me/mtompkins/revisiontodateconverter) [![build status](https://git.marktompkins.me/mtompkins/rev-to-date-converter/badges/master/build.svg)](https://git.marktompkins.me/mtompkins/rev-to-date-converter/commits/master) [![Build Status](https://travis-ci.org/mtompkins/rev-to-date-converter.svg?branch=master)](https://travis-ci.org/mtompkins/rev-to-date-converter)
-<img align="right" src="https://github.com/mtompkins/rev-to-date-converter/blob/master/img/rev-to-date.png" alt="Rev2Date" title="Rev2Date">
+<img align="right" src="https://raw.githubusercontent.com/mtompkins/rev-to-date-converter/master/img/rev-to-date.png" alt="Rev2Date" title="Rev2Date">
 
 # QT Revision To Date Converter
 
